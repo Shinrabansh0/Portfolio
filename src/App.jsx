@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="demo-big-content">
+    <div className="Content">
       <Layout>
-        <Header title="Tyler Felps' Portfolio" scroll>
+        <Header className = "header-color" title="Tyler Felps' Portfolio" scroll>
           <Navigation>
             <Link to="/Resume">Resume</Link>
             <Link to="/AboutMe">About Me</Link>
