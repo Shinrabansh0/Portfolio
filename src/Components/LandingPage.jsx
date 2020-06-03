@@ -16,8 +16,17 @@ class Landing extends Component{
                             Full Stack Web Developer
                         </h1>
                         <p>
-                            Javascript | React | CSS | HTML | NodeJS | Git
+                            Javascript | React | CSS | HTML | SQL | NodeJS | Git
                         </p>
+                        <div className ="social-links">
+                            <a href="http://google.com" rel = "noopener noreferrer" target = "_blank">
+                            <i className="fab fa-linkedin-in"></i>
+                            </a>
+
+                            <a href="http://google.com" rel = "noopener noreferrer" target = "_blank">
+                            <i className="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
                        </div>
                     </Cell>
                 </Grid>
