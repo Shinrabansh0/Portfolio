@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import { Button, Icon } from "semantic-ui-react";
-import { Link } from "react-router-dom";
 
 class Landing extends Component {
   render() {
@@ -17,7 +15,22 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <p>Javascript | React | CSS | HTML | SQL | NodeJS | Git</p>
-              <div className="social-links"></div>
+              <div className="social-links">
+                <a
+                  href="https://www.linkedin.com/in/tyler-felps-65763a1a4/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+                <a
+                  href="https://github.com/Shinrabansh0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
