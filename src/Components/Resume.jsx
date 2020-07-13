@@ -25,7 +25,7 @@ class Resume extends Component{
                         </h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id odio et nisi tincidunt lacinia eu vitae sapien. In a euismod ipsum, sit amet gravida dui. Nunc dolor dolor, pretium non euismod vel, aliquet non dui. Nunc vestibulum odio quis consectetur aliquet. Curabitur dignissim nulla ut suscipit posuere. Donec consectetur nisl et blandit congue. Nullam scelerisque ex ut pharetra maximus. Pellentesque porttitor malesuada libero, sit amet fermentum sem. Nunc ac tellus blandit, bibendum nisi sed, commodo tellus. Nullam sed dapibus enim. Mauris luctus lacus quis dolor pretium, eget elementum leo blandit.
+                        My name is Tyler Felps, I'm a graduate from the University of Idaho with a major focus on Computer Science and a minor in Mathematics. I strive for success in my field and aim to continue growing my knowledge and experience in any role I take to better myself and my company. Working in a team environment is my preferred method for development to ensure every possible method has been discussed without too focused on a single solution. My career goals are stability in an employer and growth as an individual within the industry.
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
@@ -38,8 +38,6 @@ class Resume extends Component{
                         <p>(360) 720-1177</p>
                         <h5>Email</h5>
                         <p>felpskid2@yahoo.com</p>
-                        <h5>Web</h5>
-                        <p>The address for this page</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -48,13 +46,13 @@ class Resume extends Component{
                             startYear = {2013}
                             endYear = {2017}
                             schoolName ="College of Southern Idaho"
-                            schoolDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel euismod lectus. Integer mollis at sapien vel posuere. Nam in vestibulum risus. Nunc blandit finibus arcu sed lacinia. Ut sit amet dapibus nisi, vel egestas mi. Vivamus sit amet massa id lorem hendrerit dignissim vel vel ligula. Quisque et sagittis tellus. Duis fringilla tortor dui, non efficitur diam dignissim"
+                            schoolDescription = "The College of Southern Idaho (CSI) is one of the fastest growing educational institutions in the State of Idaho. CSI is a public community college that helps guide students to the field they desire or to help transfer to a larger college of their choice. CSI offers associate degrees in various fields including: arts, sciences, applied sciences, and technical certifications in over 115 disciplines."
                         />
                         <Education
                             startYear = {2017}
                             endYear = {2020}
                             schoolName ="University of Idaho"
-                            schoolDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel euismod lectus. Integer mollis at sapien vel posuere. Nam in vestibulum risus. Nunc blandit finibus arcu sed lacinia. Ut sit amet dapibus nisi, vel egestas mi. Vivamus sit amet massa id lorem hendrerit dignissim vel vel ligula. Quisque et sagittis tellus. Duis fringilla tortor dui, non efficitur diam dignissim"
+                            schoolDescription = "The University of Idaho (UoI) is one of the major public universities within the State of Idaho. Since 1889, the University of Idaho has provided motivated students with a transformative higher education experience that prepares them to solve real-world problems and achieve success in their lives and careers. One of the nation’s land-grant research universities, U of I is a noted national leader in student-centered learning and interdisciplinary research that promotes public service."
                         />
 
                         <hr style={{borderTop: '3px solid #e22947'}}/>
@@ -64,7 +62,8 @@ class Resume extends Component{
                             startYear={2018}
                             endYear={2020}
                             jobTitle="Associate Consultant"
-                            jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel euismod lectus. Integer mollis at sapien vel posuere"
+                            employerName="Fenway Group"
+                            jobDescription="Under supervision of experienced programmers/leadership using Agile SCRUM framework, I helped to build various projects based on client wants and needs. Learned new languages/technologies in short timeframes to meet client goals and build projects per client request."
                         />
 
                         <hr style={{borderTop: '3px solid #e22947'}}/>
@@ -72,11 +71,11 @@ class Resume extends Component{
                         <h2> Skills </h2>
                         <Skills
                             skill="Javascript"
-                            progress={55}
+                            progress={65}
                         />
                         <Skills
                             skill="HTML/CSS"
-                            progress={55}
+                            progress={65}
                         />
                         <Skills
                             skill="NodeJS"
@@ -84,7 +83,7 @@ class Resume extends Component{
                         />
                         <Skills
                             skill="React"
-                            progress={55}
+                            progress={65}
                         />
                     </Cell>
                 </Grid>

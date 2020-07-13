@@ -14,7 +14,7 @@ class Contact extends Component{
                             style={{height: '250px'}}
                         />
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer magna quam, finibus id velit in, placerat commodo sem. Morbi fermentum sem eget luctus cursus. In ultrices enim sit amet consequat commodo. Nam tempor elementum orci, in dictum metus lacinia sit amet. Curabitur ac tristique magna. Nulla facilisi. Curabitur eget lacinia nibh. Vivamus eu purus ac ligula fringilla mollis vitae eget nunc. Integer varius lorem sed rhoncus euismod. In sodales ultricies consectetur. Vivamus massa turpis, ornare quis neque id, tempor malesuada felis. Vestibulum eu massa et arcu ullamcorper volutpat ac eu nulla.
+                            My name is Tyler Felps, I'm a graduate from the University of Idaho with a major focus on Computer Science and a minor in Mathematics. I strive for success in my field and aim to continue growing my knowledge and experience in any role I take to better myself and my company. Working in a team environment is my preferred method for development to ensure every possible method has been discussed without too focused on a single solution. My career goals are stability in an employer and growth as an individual within the industry.
                         </p>
                     </Cell>
                     <Cell col = {6}>
