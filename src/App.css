@@ -75,7 +75,7 @@
 .projects-grid {
   display: flex;
 }
-
+/*Contact Page*/
 .contact-body {
   margin: auto;
   position: fixed;
@@ -113,4 +113,12 @@
 .contact-list i {
   font-size: 60px;
   padding-right: 5rem;
+}
+
+/*Resume Page*/
+
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
 }
